@@ -38,5 +38,9 @@
 `kubectl scale statefulsets hostname -n=namespace --replicas=1`
 
 ## Webhooks
+
+### Test webhook functionality
 `hookbin.com`
 
+### Ngrok - test local resources remotely
+`https://ngrok.com/`
