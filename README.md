@@ -25,6 +25,13 @@
 
 ## kubectl
 
+### Set up from scratch
+1. az login
+2. az account list -o table
+3. az account set --subscription <subscription_id>
+4. az aks list
+5. az aks get-credentials --resource-group <resource_group> --name <name_of_aks_service>
+
 ### View details on single pod
 `kubectl describe pod hostname -n=namespace`
 
