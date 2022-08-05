@@ -56,6 +56,7 @@
 
 ### Import self signed cert into main cacerts key store (under %JAVA_HOME%)
 ```
+keytool -cacerts -list -v
 keytool -cacerts -delete -alias cosmos_emulator
 keytool -cacerts -importcert -alias cosmos_emulator -file <path to file>
 ```
