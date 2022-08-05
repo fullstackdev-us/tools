@@ -51,3 +51,11 @@
 
 ### Ngrok - test local resources remotely
 `https://ngrok.com/`
+
+## Java
+
+### Import self signed cert into main cacerts key store (under %JAVA_HOME%)
+```
+keytool -cacerts -delete -alias cosmos_emulator
+keytool -cacerts -importcert -alias cosmos_emulator -file <path to file>
+```
